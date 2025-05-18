@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "traddons",
+	"version": "${version}",
+	"name": "Tunnel Rats Addons",
+	"description": "Simple mod to add some fun and random items to the Tunnel Rats game!",
+	"authors": [
+		"Grayson"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/GrayDog667/TunnelRatsAddons"
+	},
+	"license": "MIT",
+	"icon": "assets/traddons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.grayson.traddons.TunnelRatsAddons"
+		],
+		"fabric-datagen": [
+			"com.grayson.traddons.TunnelRatsAddonsDataGenerator"
+		],
+		"clinet": [
+			"com.grayson.traddons.TunnelRatsAddonsClient"
+		]
+	},
+	"mixins": [
+		"traddons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

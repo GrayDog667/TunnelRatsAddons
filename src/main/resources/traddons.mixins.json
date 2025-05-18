@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.grayson.traddons.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
