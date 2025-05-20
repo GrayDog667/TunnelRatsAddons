@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "traddons:block/titanium_block"
+    }
+  }
+}
