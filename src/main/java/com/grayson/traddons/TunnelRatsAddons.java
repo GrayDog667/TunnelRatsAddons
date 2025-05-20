@@ -1,6 +1,7 @@
 package com.grayson.traddons;
 
 import com.grayson.traddons.block.ModBlocks;
+import com.grayson.traddons.item.ModItemGroups;
 import com.grayson.traddons.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,8 @@ public class TunnelRatsAddons implements ModInitializer {
 
 		@Override
 		public void onInitialize() {
+			ModItemGroups.registerItemGroups();
+
 			ModItems.registerModItems();
 			ModBlocks.registerModBlocks();
 

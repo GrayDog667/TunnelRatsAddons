@@ -2,5 +2,7 @@
   "item.traddons.swift_boots": "Boots of Swiftness",
   "item.traddons.titanium": "Titanium",
 
-  "block.traddons.titanium_block": "Block of Titanium"
+  "block.traddons.titanium_block": "Block of Titanium",
+
+  "itemgroup.traddons.modded_items": "Tunnel Rats Addons Items"
 }
